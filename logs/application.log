@@ -1,0 +1,12 @@
+2015-04-04 18:49:00,275 - [INFO] - from play in pool-4-thread-2 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-04-04 18:49:59,188 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-04-04 18:50:17,975 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+Building socket stream handlers . . . 
+
+2015-04-04 18:50:18,018 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
+Starting application default Akka system.
+

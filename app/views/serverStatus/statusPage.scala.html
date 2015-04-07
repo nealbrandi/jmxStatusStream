@@ -1,0 +1,14 @@
+@(implicit request: RequestHeader)
+
+@main("Server Load Status") {
+  <script type="text/javascript">
+    $(function() {
+   	    var ws = new WebSocket("@routes.ServerStatus.statusStream.webSocketURL()");
+	      ws.onmessage = function(message) {
+          console.log("Received WebSockets message: " + message.data);
+	        $('#average-system-load').text(message.data)
+        }
+    })
+  </script>
+  <h1>Average System Load: <span id="average-system-load"></span></h1>
+}

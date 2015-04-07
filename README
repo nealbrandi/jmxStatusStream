@@ -1,0 +1,9 @@
+Java Management Extensions - Status Stream
+==========================================
+
+The purpose of this Play2 Scala applicaiton is to learn basic WebSocket technology.
+
+The application consists of 2 pages:
+
+	1. Landing       - Provides link to the server status page; Demonstrates reverse routing  
+	2. Server Status - Displays average server load; Demonstrates a server side push via HTML5 WebSocket
